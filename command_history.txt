@@ -1,0 +1,50 @@
+git pull origin main --rebase
+git push origin main
+git stash
+git pull origin main --rebase
+git stash pop
+git fetch origin
+git pull --rebase origin main
+git rebase --continue
+git push --force origin main
+git status
+git push origin main
+cls
+add dvc data/Salary Data.csv
+dvc add data/Salary Data.csv
+dvc add data/SalaryData.csv
+git add data/SalaryData.csv.dvc .gitignore
+git add data/SalaryData.csv.dvc.gitignore
+git add data/SalaryData.csv.dvc
+git commit -m "Track sample dataset with DVC"
+git push origin main
+dvc push
+cls
+dvc add data/SalaryData.csv
+git add data/SalaryData.csv.dvc
+git commit -m "Salary Data update by deleting few rows"
+git push origin main
+dvc push
+git clone https://github.com/YogitaPatil5/github-dvc-practice.git collaborator
+dir
+cd collaborator
+cls
+git pull origin main
+dvc pull
+pip install pandas
+git add analysis.py
+git add .
+git commit -m "Add sum_value function to analysis script"
+git push origin main
+git pull origin main
+dvc pull
+python analysis.py
+dvc pull
+python analysis.py
+git add .
+git commit -m "code update"
+git push push origin
+git push origin main
+cls
+commit history
+doskey /history > command_history.txt
